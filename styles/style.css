@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&family=Tilt+Prism&display=swap');
+
+body {
+  background: linear-gradient(15deg, #ee1356, #e73c7e, #55a7d9, #23d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+h1 {
+  font-family: 'Apple Chancery', cursive;
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Prism', sans-serif;
+   */
+}
+h3 {
+  font-family: 'Apple Chancery', cursive;
+}
+img {
+    height: 300px;
+    /*width:100px;   */
+}
+}
+#outputDiv {
+  display: none;
+}
