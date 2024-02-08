@@ -18,8 +18,49 @@ h3 {
 img {
     height: 300px;
     /*width:100px;   */
+    border: 5px solid gold;
+  
+ 
+  h3 { clear: left; }
 }
 }
 #outputDiv {
   display: none;
+}
+@keyframes rainbow {
+  0% { color: red; }
+  16.666% { color: orange; }
+  33.333% { color: yellow; }
+  50% { color: green; }
+  66.666% { color: blue; }
+  83.333% { color: indigo; }
+  100% { color: violet; }
+}
+
+.rainbow-flash {
+  animation: rainbow 1s linear infinite alternate;
+}
+#winningLine {
+    width: 10px;
+    height: 180vh;
+    background-color: black;
+    position: absolute;
+    left: 500px; 
+    top: 0;
+}
+#jailBar1 {
+    width: 10px;
+    height: 180vh;
+    background-color: black;
+    position: absolute;
+    left: 450px; 
+    top: 0;
+}
+#jailBar2 {
+    width: 10px;
+    height: 180vh;
+    background-color: black;
+    position: absolute;
+    left: 400px; 
+    top: 0;
 }
